@@ -1,23 +1,23 @@
 # Style Image Prior
-> [Style Generator Inversion for Image Enhancement and Animation](http://www.vision.huji.ac.il/style-image-prior)  
+> [Style Generator Inversion for Image Enhancement and Animation](https://www.vision.huji.ac.il/style-image-prior)  
 > Aviv Gabbay and Yedid Hoshen
 
 ## Inpainting
-| ![image](http://www.vision.huji.ac.il/style-image-prior/img/inpainting/imgHQ00040-corrupted.png) | ![image](http://www.vision.huji.ac.il/style-image-prior/img/inpainting/imgHQ00040-stylegan.png) | ![image](http://www.vision.huji.ac.il/style-image-prior/img/inpainting/imgHQ00040.png) |
+| ![image](https://www.vision.huji.ac.il/style-image-prior/img/inpainting/imgHQ00040-corrupted.png) | ![image](https://www.vision.huji.ac.il/style-image-prior/img/inpainting/imgHQ00040-stylegan.png) | ![image](https://www.vision.huji.ac.il/style-image-prior/img/inpainting/imgHQ00040.png) |
 | :---: | :---: | :---: |
-| ![image](http://www.vision.huji.ac.il/style-image-prior/img/inpainting/imgHQ00046-corrupted.png) | ![image](http://www.vision.huji.ac.il/style-image-prior/img/inpainting/imgHQ00046-stylegan.png) | ![image](http://www.vision.huji.ac.il/style-image-prior/img/inpainting/imgHQ00046.png) |
+| ![image](https://www.vision.huji.ac.il/style-image-prior/img/inpainting/imgHQ00046-corrupted.png) | ![image](https://www.vision.huji.ac.il/style-image-prior/img/inpainting/imgHQ00046-stylegan.png) | ![image](https://www.vision.huji.ac.il/style-image-prior/img/inpainting/imgHQ00046.png) |
 | Corrupted | Ours | GT |
 
 ## Super-Resolution (128x128 to 1024x1024)
-| ![image](http://www.vision.huji.ac.il/style-image-prior/img/super-resolution/imgHQ00095-bicubic.png) | ![image](http://www.vision.huji.ac.il/style-image-prior/img/super-resolution/imgHQ00095-stylegan.png) | ![image](http://www.vision.huji.ac.il/style-image-prior/img/super-resolution/imgHQ00095.png) |
+| ![image](https://www.vision.huji.ac.il/style-image-prior/img/super-resolution/imgHQ00095-bicubic.png) | ![image](https://www.vision.huji.ac.il/style-image-prior/img/super-resolution/imgHQ00095-stylegan.png) | ![image](https://www.vision.huji.ac.il/style-image-prior/img/super-resolution/imgHQ00095.png) |
 | :---: | :---: | :---: |
-| ![image](http://www.vision.huji.ac.il/style-image-prior/img/super-resolution/imgHQ00044-bicubic.png) | ![image](http://www.vision.huji.ac.il/style-image-prior/img/super-resolution/imgHQ00044-stylegan.png) | ![image](http://www.vision.huji.ac.il/style-image-prior/img/super-resolution/imgHQ00044.png) |
+| ![image](https://www.vision.huji.ac.il/style-image-prior/img/super-resolution/imgHQ00044-bicubic.png) | ![image](https://www.vision.huji.ac.il/style-image-prior/img/super-resolution/imgHQ00044-stylegan.png) | ![image](https://www.vision.huji.ac.il/style-image-prior/img/super-resolution/imgHQ00044.png) |
 | Bicubic | Ours | GT |
 
 ## Re-animation: Animating Obama from a video of Trump 
-| ![image](http://www.vision.huji.ac.il/style-image-prior/img/reanimation/trump_1.png) | ![image](http://www.vision.huji.ac.il/style-image-prior/img/reanimation/trump_2.png) | ![image](http://www.vision.huji.ac.il/style-image-prior/img/reanimation/trump_3.png) | ![image](http://www.vision.huji.ac.il/style-image-prior/img/reanimation/trump_4.png) | ![image](http://www.vision.huji.ac.il/style-image-prior/img/reanimation/trump_5.png) |
+| ![image](https://www.vision.huji.ac.il/style-image-prior/img/reanimation/trump_1.png) | ![image](https://www.vision.huji.ac.il/style-image-prior/img/reanimation/trump_2.png) | ![image](https://www.vision.huji.ac.il/style-image-prior/img/reanimation/trump_3.png) | ![image](https://www.vision.huji.ac.il/style-image-prior/img/reanimation/trump_4.png) | ![image](https://www.vision.huji.ac.il/style-image-prior/img/reanimation/trump_5.png) |
 | :---: | :---: |  :---: | :---: | :---: |
-| ![image](http://www.vision.huji.ac.il/style-image-prior/img/reanimation/obama_1.png) | ![image](http://www.vision.huji.ac.il/style-image-prior/img/reanimation/obama_2.png) | ![image](http://www.vision.huji.ac.il/style-image-prior/img/reanimation/obama_3.png) | ![image](http://www.vision.huji.ac.il/style-image-prior/img/reanimation/obama_4.png) | ![image](http://www.vision.huji.ac.il/style-image-prior/img/reanimation/obama_5.png) |
+| ![image](https://www.vision.huji.ac.il/style-image-prior/img/reanimation/obama_1.png) | ![image](https://www.vision.huji.ac.il/style-image-prior/img/reanimation/obama_2.png) | ![image](https://www.vision.huji.ac.il/style-image-prior/img/reanimation/obama_3.png) | ![image](https://www.vision.huji.ac.il/style-image-prior/img/reanimation/obama_4.png) | ![image](https://www.vision.huji.ac.il/style-image-prior/img/reanimation/obama_5.png) |
 
 ## Usage
 ### Dependencies

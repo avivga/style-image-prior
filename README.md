@@ -3,21 +3,21 @@
 > Aviv Gabbay and Yedid Hoshen
 
 ## Inpainting
-| ![image](https://www.vision.huji.ac.il/style-image-prior/img/inpainting/imgHQ00040-corrupted.png) | ![image](https://www.vision.huji.ac.il/style-image-prior/img/inpainting/imgHQ00040-stylegan.png) | ![image](https://www.vision.huji.ac.il/style-image-prior/img/inpainting/imgHQ00040.png) |
+| ![image](img/inpainting/imgHQ00040-corrupted.png) | ![image](img/inpainting/imgHQ00040-stylegan.png) | ![image](img/inpainting/imgHQ00040.png) |
 | :---: | :---: | :---: |
-| ![image](https://www.vision.huji.ac.il/style-image-prior/img/inpainting/imgHQ00046-corrupted.png) | ![image](https://www.vision.huji.ac.il/style-image-prior/img/inpainting/imgHQ00046-stylegan.png) | ![image](https://www.vision.huji.ac.il/style-image-prior/img/inpainting/imgHQ00046.png) |
+| ![image](img/inpainting/imgHQ00046-corrupted.png) | ![image](img/inpainting/imgHQ00046-stylegan.png) | ![image](img/inpainting/imgHQ00046.png) |
 | Corrupted | Ours | GT |
 
 ## Super-Resolution (128x128 to 1024x1024)
-| ![image](https://www.vision.huji.ac.il/style-image-prior/img/super-resolution/imgHQ00095-bicubic.png) | ![image](https://www.vision.huji.ac.il/style-image-prior/img/super-resolution/imgHQ00095-stylegan.png) | ![image](https://www.vision.huji.ac.il/style-image-prior/img/super-resolution/imgHQ00095.png) |
+| ![image](img/super-resolution/imgHQ00095-bicubic.png) | ![image](img/super-resolution/imgHQ00095-stylegan.png) | ![image](img/super-resolution/imgHQ00095.png) |
 | :---: | :---: | :---: |
-| ![image](https://www.vision.huji.ac.il/style-image-prior/img/super-resolution/imgHQ00044-bicubic.png) | ![image](https://www.vision.huji.ac.il/style-image-prior/img/super-resolution/imgHQ00044-stylegan.png) | ![image](https://www.vision.huji.ac.il/style-image-prior/img/super-resolution/imgHQ00044.png) |
+| ![image](img/super-resolution/imgHQ00044-bicubic.png) | ![image](img/super-resolution/imgHQ00044-stylegan.png) | ![image](img/super-resolution/imgHQ00044.png) |
 | Bicubic | Ours | GT |
 
-## Re-animation: Animating Obama from a video of Trump 
-| ![image](https://www.vision.huji.ac.il/style-image-prior/img/reanimation/trump_1.png) | ![image](https://www.vision.huji.ac.il/style-image-prior/img/reanimation/trump_2.png) | ![image](https://www.vision.huji.ac.il/style-image-prior/img/reanimation/trump_3.png) | ![image](https://www.vision.huji.ac.il/style-image-prior/img/reanimation/trump_4.png) | ![image](https://www.vision.huji.ac.il/style-image-prior/img/reanimation/trump_5.png) |
+## Re-animation: Animating Obama from a video of Trump
+| ![image](img/reanimation/trump_1.png) | ![image](img/reanimation/trump_2.png) | ![image](img/reanimation/trump_3.png) | ![image](img/reanimation/trump_4.png) | ![image](img/reanimation/trump_5.png) |
 | :---: | :---: |  :---: | :---: | :---: |
-| ![image](https://www.vision.huji.ac.il/style-image-prior/img/reanimation/obama_1.png) | ![image](https://www.vision.huji.ac.il/style-image-prior/img/reanimation/obama_2.png) | ![image](https://www.vision.huji.ac.il/style-image-prior/img/reanimation/obama_3.png) | ![image](https://www.vision.huji.ac.il/style-image-prior/img/reanimation/obama_4.png) | ![image](https://www.vision.huji.ac.il/style-image-prior/img/reanimation/obama_5.png) |
+| ![image](img/reanimation/obama_1.png) | ![image](img/reanimation/obama_2.png) | ![image](img/reanimation/obama_3.png) | ![image](img/reanimation/obama_4.png) | ![image](img/reanimation/obama_5.png) |
 
 ## Usage
 ### Dependencies
@@ -29,7 +29,7 @@
 * tqdm >= 4.28.1
 
 ### Getting started
-1. Clone the official [StyleGAN](https://github.com/NVlabs/stylegan) repository. 
+1. Clone the official [StyleGAN](https://github.com/NVlabs/stylegan) repository.
 2. Add the local StyleGAN project to PYTHONPATH.
 
     For bash users:
@@ -63,7 +63,7 @@ super_resolution.py --lr-imgs-dir <input-imgs-dir> --hr-imgs-dir <output-imgs-di
 
 **Note:** StyleGAN inversion is very sensitive to the face alignment.
 The target face should be aligned exactly as done in the pipeline which CelebA-HQ was created by.
-You may use the alignment method implemented here: 
+You may use the alignment method implemented here:
 https://github.com/Puzer/stylegan-encoder/blob/master/align_images.py before applying any of the proposed image restoration methods.
 
 ## Citing
